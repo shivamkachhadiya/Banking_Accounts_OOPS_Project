@@ -1,12 +1,15 @@
 #pragma once
 #include "Account.h"
-class Checking :
-    public Account
+
+// Derived class representing a Checking Account
+class Checking : public Account
 {
 public:
-	Checking(const string& name, float balance);
-	Checking();
-	~Checking();
-	void Withdraw(float amount);	
-};
+    // Constructors & Destructor
+    Checking(const string& name, float balance);
+    Checking();
+    ~Checking();
 
+    // Overridden function to apply minimum balance rule
+    void Withdraw(float amount) override;
+};

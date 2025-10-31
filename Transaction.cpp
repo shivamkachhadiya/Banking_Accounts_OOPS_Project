@@ -1,42 +1,31 @@
-//#include "Transaction.h"
-//#include <iostream>
-//void Transct(Account* pAccount)
-//{
-//	cout << "Transaction started" << std::endl;	
-//	cout << "initial balance" << pAccount->getBalance()<<std::endl;
-//	pAccount->Deposit(100.0f);
-//	pAccount->AccumulateInterest();
-//	pAccount->Withdraw(170.0f);
-//	cout << "intrest rate" << pAccount->getInterestRate() << std::endl;
-//	cout << "final balance" << pAccount->getBalance() << std::endl;
-//}
-
-
-#include "Transaction.h"
+﻿#include "Transaction.h"
 #include <iostream>
+using namespace std;
 
+// Function to perform a series of account transactions
 void Transct(Account* pAccount)
 {
-    std::cout << "Transaction started\n";
-    std::cout << "Initial balance: " << pAccount->getBalance() << std::endl;
+    cout << "Transaction Started" << endl;
+    cout << "Initial Balance: " << pAccount->getBalance() << endl;
 
     // Deposit step
     float depositAmount = 200.0f;
     pAccount->Deposit(depositAmount);
-    std::cout << "Deposited: " << depositAmount
-        << " -> Balance now: " << pAccount->getBalance() << std::endl;
+    cout << "Deposited: " << depositAmount
+        << " -> Balance Now: " << pAccount->getBalance() << endl;
 
     // Withdraw step
     float withdrawAmount = 170.0f;
     pAccount->Withdraw(withdrawAmount);
-    std::cout << "Withdrawn: " << withdrawAmount
-        << " -> Balance now: " << pAccount->getBalance() << std::endl;
+    cout << "Withdrawn: " << withdrawAmount
+        << " -> Balance Now: " << pAccount->getBalance() << endl;
 
-    // Interest step
+    // Interest accumulation step
     pAccount->AccumulateInterest();
-    std::cout << "Interest added (" << pAccount->getInterestRate()
-        << "%) -> Balance now: " << pAccount->getBalance() << std::endl;
+    cout << "Interest Added (" << pAccount->getInterestRate()
+        << "%) -> Balance Now: " << pAccount->getBalance() << endl;
 
     // Final summary
-    std::cout << "Final balance: " << pAccount->getBalance() << std::endl;
+    cout << "Final Balance: " << pAccount->getBalance() << endl;
+    cout << "---------------------------------------------" << endl;
 }
