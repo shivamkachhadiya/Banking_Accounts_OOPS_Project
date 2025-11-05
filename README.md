@@ -1,18 +1,14 @@
 # ⚡ Banking_Account_Inheritance_Project  
+
 <h3 align="center">🎥 Project Demo on LinkedIn</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/posts/shivam012_systemdesign-lowleveldesign-c-activity-7391500595431485440-X7_6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk3whQBPazr-kqiFmmqluSsgJUb3tjAecY" target="_blank">
-    <img src="https://github.com/shivamkachhadiya/Banking_Account_Inheritance_Project/assets/123456789/quant-demo-banner.gif" 
-         alt="LinkedIn Project Demo" width="80%" style="border-radius:15px;box-shadow:0 0 20px rgba(0,0,0,0.4);"/>
+    <img src="https://img.shields.io/badge/▶️%20View%20Demo%20on%20LinkedIn-blue?logo=linkedin&style=for-the-badge" alt="LinkedIn Demo"/>
   </a>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/posts/shivam012_systemdesign-lowleveldesign-c-activity-7391500595431485440-X7_6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk3whQBPazr-kqiFmmqluSsgJUb3tjAecY" target="_blank">
-    <img src="https://img.shields.io/badge/🎬%20Watch%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+
 
 
 
