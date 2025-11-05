@@ -1,6 +1,7 @@
 # ⚡ Banking_Account_Inheritance_Project  
-🎥 **Watch My LinkedIn Post:**  
-[![Watch Demo](https://www.linkedin.com/posts/shivam012_systemdesign-lowleveldesign-c-activity-7391500595431485440-X7_6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk3whQBPazr-kqiFmmqluSsgJUb3tjAecY)
+### 🎥 Project Demo on LinkedIn  
+[![Watch the Demo on LinkedIn](https://img.shields.io/badge/▶️%20View%20Demo%20on%20LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/posts/shivam012_systemdesign-lowleveldesign-c-activity-7391500595431485440-X7_6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk3whQBPazr-kqiFmmqluSsgJUb3tjAecY)
+
 
 <div align="center">
 
